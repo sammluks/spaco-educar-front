@@ -1,0 +1,32 @@
+.form-input {
+    width: 100%;
+    padding: 1rem 1rem ;
+    display: grid;
+}
+
+input {
+    margin: 0rem auto 1.5rem ;
+}
+
+.button {
+    display: grid;
+    /* justify-content: center; */
+    margin: .5rem 1rem;
+    /* width: 100px; */
+}
+
+button {
+    margin: 0.3rem;
+}
+
+.header {
+    margin: 1rem 1rem 2rem ;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+#register {
+    background-color: aliceblue;
+}
