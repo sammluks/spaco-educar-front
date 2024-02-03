@@ -1,4 +1,4 @@
-import { Button, Card, CardHeader, FormControl, FormLabel, Input, Select } from "@chakra-ui/react";
+import { Button, Card, CardHeader, FormControl, FormLabel, Input, NumberDecrementStepper, NumberIncrementStepper, NumberInput, NumberInputField, NumberInputStepper, Select } from "@chakra-ui/react";
 
 import './styles.css';
 
@@ -31,8 +31,13 @@ export default function RegisterMaterial() {
                     </FormControl>
                     <FormControl isRequired>
                         <FormLabel>Preço</FormLabel>
-                        <Input placeholder='Preço' />
+                        <NumberInput max={50} min={1}>
+                            <NumberInputField />
+                            <NumberInputStepper>
+                            </NumberInputStepper>
+                        </NumberInput>
                     </FormControl>
+
                 </div>
                 <div className='button'>
                     <Button colorScheme='green'>Cadastrar material</Button>

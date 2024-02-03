@@ -10,9 +10,7 @@ input {
 
 .button {
     display: grid;
-    /* justify-content: center; */
     margin: .5rem 1rem;
-    /* width: 100px; */
 }
 
 button {
